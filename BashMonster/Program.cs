@@ -11,7 +11,7 @@ System.Console.WriteLine("Du har 0 swagness)"); // Gör så uppdateras varje run
 
 
 // är hp = 0? avsluta spelet
-if (Fienden.hp = 0);
+if (Fienden.hp == 0)
 {
     System.Console.WriteLine("Bra jobbat, fienden är död!");
     System.Console.WriteLine("Klicka vilken knapp som helst för avsluta");
@@ -21,7 +21,6 @@ if (Fienden.hp = 0);
 
 // Starta första rundan och attackera monstret
 System.Console.WriteLine("Attackera nu! (Enter för attackera)");
-Console.ReadKey();
 
 // Ta bort hp från monster
 Fienden.hp -=10;
